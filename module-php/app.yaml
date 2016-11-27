@@ -6,5 +6,5 @@ threadsafe: true
 handlers:
 
 - url: /.*
-  script: module-php.php
+  script: app.php
   secure: always

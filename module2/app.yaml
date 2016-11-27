@@ -1,4 +1,4 @@
-service: default
+service: module2
 runtime: python27
 api_version: 1
 threadsafe: true
@@ -6,5 +6,5 @@ threadsafe: true
 handlers:
 
 - url: .*
-  script: default.app
+  script: src.app.app
   secure: always
