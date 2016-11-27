@@ -11,3 +11,5 @@ dispatch:
     module: module1
   - url: "module2-dot-gae-microservices-skeleton.appspot.com/*"
     module: module2
+  - url: "module-php-dot-gae-microservices-skeleton.appspot.com/*"
+    module: module-php
