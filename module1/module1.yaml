@@ -1,6 +1,4 @@
-application: gae-microservices-skeleton
-module: default
-version: 1
+service: module1
 runtime: python27
 api_version: 1
 threadsafe: true

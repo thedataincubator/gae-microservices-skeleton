@@ -1,8 +1,13 @@
-application: gae-microservices-skeleton
 dispatch:
   - url: "gae-microservices-skeleton.example.com/*"
     module: module1
-  - url: "module1.gae-microservices-skeleton.appspot.com/*"
+  - url: "module1.gae-microservices-skeleton.example.com/*"
     module: module1
-  - url: "module2.gae-microservices-skeleton.appspot.com/*"
+  - url: "module2.gae-microservices-skeleton.example.com/*"
+    module: module2
+  - url: "gae-microservices-skeleton.appspot.com/*"
+    module: module1
+  - url: "module1-dot-gae-microservices-skeleton.appspot.com/*"
+    module: module1
+  - url: "module2-dot-gae-microservices-skeleton.appspot.com/*"
     module: module2
