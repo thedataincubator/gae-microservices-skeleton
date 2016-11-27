@@ -13,3 +13,6 @@ deploy-%: %/app.yaml
 
 install-ext:
 	pip install -t default/ext -r default/requirements.txt
+
+clean:
+	find . -name *.pyc | xargs rm -f
