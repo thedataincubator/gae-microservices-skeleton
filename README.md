@@ -37,4 +37,4 @@
 
 2. Setup module.php to be a wordpress site and use `dispatch.yaml` to route `site/blog` to it.  [This article](https://googlecloudplatform.github.io/appengine-php-wordpress-starter-project/) and [this blog](https://code.tutsplus.com/tutorials/hosting-a-wordpress-website-on-google-app-engine--cms-22134) explain how.  [This wordpress extension](https://wordpress.org/plugins/google-app-engine/) may be necessary.  Can we do this routing at the DNS level?
 
-3. Flask Blueprints be registered multiple times at different endpoints (e.g. `/client1/foo.html` and `/client2/foo.html`).  There may be [some issues](https://github.com/pallets/flask/issues/1091) with `url_for` not quite working.  This is almost certainly better than multiple apps.
+3. Flask Blueprints be registered multiple times at different endpoints (e.g. `/client1/foo.html` and `/client2/foo.html`).  There may be [some issues](https://github.com/pallets/flask/issues/1091) with `url_for` not quite working and this is verified in our default app's two blueprints.
