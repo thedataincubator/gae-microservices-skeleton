@@ -6,7 +6,7 @@ dispatch:
   - url: "module2.example.com/*"
     module: module2
   - url: "gae-microservices-skeleton.appspot.com/*"
-    module: module1
+    module: default
   - url: "module1-dot-gae-microservices-skeleton.appspot.com/*"
     module: module1
   - url: "module2-dot-gae-microservices-skeleton.appspot.com/*"
