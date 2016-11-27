@@ -1,0 +1,12 @@
+application: gae-microservices-skeleton
+module: module2
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: .*
+  script: src.module2.app
+  secure: always

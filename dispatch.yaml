@@ -1,0 +1,8 @@
+application: gae-microservices-skeleton
+dispatch:
+  - url: "gae-microservices-skeleton.example.com/*"
+    module: module1
+  - url: "module1.gae-microservices-skeleton.appspot.com/*"
+    module: module1
+  - url: "module2.gae-microservices-skeleton.appspot.com/*"
+    module: module2
