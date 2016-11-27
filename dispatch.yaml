@@ -1,9 +1,9 @@
 dispatch:
-  - url: "gae-microservices-skeleton.example.com/*"
+  - url: "example.com/*"
     module: module1
-  - url: "module1.gae-microservices-skeleton.example.com/*"
+  - url: "module1.example.com/*"
     module: module1
-  - url: "module2.gae-microservices-skeleton.example.com/*"
+  - url: "module2.example.com/*"
     module: module2
   - url: "gae-microservices-skeleton.appspot.com/*"
     module: module1
